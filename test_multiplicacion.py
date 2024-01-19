@@ -2,6 +2,7 @@ import unittest
 from multiplicacion import multiplicar
 
 class TestMultiplicar(unittest.TestCase):
+    def test_multiplicar(self):
         self.assertEqual(multiplicar(2, 3), 6)
         self.assertEqual(multiplicar(-2, -3), 6)
         self.assertEqual(multiplicar(-2, 3), -6)
