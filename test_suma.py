@@ -1,7 +1,7 @@
 import unittest
 from suma import sumar
 
-class TestSumar(unittest.TestSumar):
+class TestSumar(unittest.TestCase):
 
     def test_sumar(self):
         self.assertEqual(sumar(3,2), 5)
